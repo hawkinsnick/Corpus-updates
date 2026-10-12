@@ -1,0 +1,4 @@
+---
+layout: default
+---
+<article><p class="eyebrow">{{ page.date | date: "%B %-d, %Y" }}{% if page.categories.size > 0 %} · {{ page.categories | join: " / " | escape }}{% endif %}</p><h1>{{ page.title | escape }}</h1>{{ content }}</article><p><a href="{{ '/' | relative_url }}">← All updates</a></p>

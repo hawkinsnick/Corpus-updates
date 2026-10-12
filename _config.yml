@@ -1,0 +1,8 @@
+title: Ancient Scripts — Project Updates
+description: Progress, evidence, and open questions from the ancient scripts corpus initiative.
+url: "https://hawkinsnick.github.io"
+baseurl: "/Corpus-updates"
+timezone: America/Chicago
+permalink: /updates/:year/:month/:day/:title/
+markdown: kramdown
+exclude: [README.md, templates, Gemfile, Gemfile.lock]
