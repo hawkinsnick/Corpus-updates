@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-12",
+  "scope": "Published main-branch documentation; editorial overview, not new corpus admission or review",
+  "repositories": {
+    "hawkinsnick/Linear-A": "01d8e8bf1d21f59081edcc8a13a7d60a7a43e05b",
+    "hawkinsnick/Cypro-Minoan": "fbc718ae5103575223a947c09c6daf7d2777421c",
+    "hawkinsnick/Linear-B": "8fe16f1fef876ba45dfafa9f26a0538073cd7365",
+    "hawkinsnick/Cretan-hieroglyphs": "4b80f38ca02788b18a3806d6016405551259728b",
+    "hawkinsnick/Phaistos-Disc": "1941c5631f72b1108374cfc3587b9ff4d9800c65",
+    "hawkinsnick/Byblos-syllabary": "e928df2b47a2e2c3a3f9c33ae43d01e5098ea825",
+    "hawkinsnick/Cypriot-syllabic-Greek": "fe81f05d8aa8451bed409bb04e3171b180aa9495",
+    "hawkinsnick/Eteocypriot": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b",
+    "hawkinsnick/Eteocretan": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+    "hawkinsnick/Lycian-and-Carian": "88a0346c7a4530bd45ef25c062f06c345f7cc812",
+    "hawkinsnick/Phrygian": "c95062b725b9a0ecaeb2b627c25ede045e00c8ec",
+    "hawkinsnick/Anatolian-Hieroglyphic": "277321ab9a45ad67e810eaba03df8545b90584d2",
+    "hawkinsnick/Archanes-Script": "71f33a770fcd4e6c1c4747177cb64978390ed27a",
+    "hawkinsnick/Aegean-anomalous": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+    "hawkinsnick/Lydian": "192d53d5a316625055927111f549c2ccf1392343",
+    "hawkinsnick/Sidetic": "9bda1ff5d14b98d431f81c0dbb76bf169a091536",
+    "hawkinsnick/Pisidian": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+    "hawkinsnick/Milyan-Lycian-B": "1cba0dfe51a33f3aea6e4171e3a11409222ff1fe"
+  },
+  "additional_authorities": [
+    "https://github.com/hawkinsnick/Lycian-and-Carian/blob/88a0346c7a4530bd45ef25c062f06c345f7cc812/analysis/current-status.json"
+  ],
+  "master_registry": "https://github.com/hawkinsnick/Linear-A/blob/01d8e8bf1d21f59081edcc8a13a7d60a7a43e05b/combined-ai-skill/registry/corpus-projects.json"
+}
