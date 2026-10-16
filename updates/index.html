@@ -1,0 +1,7 @@
+---
+layout: default
+title: Corpus Project Updates
+---
+<h1>Project updates</h1>
+<p>Release notes, validation reports, source access and rights status, and open scholarly questions.</p>
+{% for post in site.posts %}<article class="card"><h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2><p>{{ post.date | date: "%B %-d, %Y" }} — {{ post.summary | escape }}</p></article>{% endfor %}
