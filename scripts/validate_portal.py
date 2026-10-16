@@ -17,7 +17,7 @@ def validate_source():
     errors = []
     data = (ROOT / '_data/corpora.yml').read_text()
     slugs = re.findall(r'^  page: /([^/]+)/$', data, re.M)
-    if sorted(slugs) != sorted(EXPECTED):
+    if sorted(slugs) != sorted(EXPECTED) or len(slugs) != len(EXPECTED):
         errors.append('Corpus directory slugs differ from the 14 expected pages')
     for slug in EXPECTED:
         path = ROOT / slug / 'index.html'
@@ -56,6 +56,9 @@ def validate_rendered(site):
             errors.append(f'Jekyll did not generate {slug}')
         elif '<link rel="canonical"' not in page.read_text():
             errors.append(f'Missing canonical URL: {slug}')
+    robots = site / 'robots.txt'
+    if not robots.is_file() or 'Sitemap: https://hawkinsnick.github.io/Corpus-updates/sitemap.xml' not in robots.read_text():
+        errors.append('robots.txt missing expected sitemap reference')
     return errors
 
 
