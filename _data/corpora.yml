@@ -1,28 +1,42 @@
 - name: Linear A
   url: https://github.com/hawkinsnick/Linear-A
+  page: /linear-a/
 - name: Linear B
   url: https://github.com/hawkinsnick/Linear-B
+  page: /linear-b/
 - name: Cypro-Minoan
   url: https://github.com/hawkinsnick/Cypro-Minoan
+  page: /cypro-minoan/
 - name: Cretan Hieroglyphs
   url: https://github.com/hawkinsnick/Cretan-hieroglyphs
+  page: /cretan-hieroglyphs/
 - name: Phaistos Disc
   url: https://github.com/hawkinsnick/Phaistos-Disc
+  page: /phaistos-disc/
 - name: Byblos Syllabary
   url: https://github.com/hawkinsnick/Byblos-syllabary
+  page: /byblos-syllabary/
 - name: Cypriot Syllabic Greek
   url: https://github.com/hawkinsnick/Cypriot-syllabic-Greek
+  page: /cypriot-syllabic-greek/
 - name: Eteocypriot
   url: https://github.com/hawkinsnick/Eteocypriot
+  page: /eteocypriot/
 - name: Eteocretan
   url: https://github.com/hawkinsnick/Eteocretan
+  page: /eteocretan/
 - name: Lycian and Carian
   url: https://github.com/hawkinsnick/Lycian-and-Carian
+  page: /lycian-carian/
 - name: Phrygian
   url: https://github.com/hawkinsnick/Phrygian
+  page: /phrygian/
 - name: Anatolian Hieroglyphic
   url: https://github.com/hawkinsnick/Anatolian-Hieroglyphic
+  page: /anatolian-hieroglyphic/
 - name: Archanes Script
   url: https://github.com/hawkinsnick/Archanes-Script
+  page: /archanes-script/
 - name: Aegean Anomalous
   url: https://github.com/hawkinsnick/Aegean-anomalous
+  page: /aegean-anomalous/
