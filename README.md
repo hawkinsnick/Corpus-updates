@@ -25,3 +25,17 @@ SEO implementation: shared page-specific title/description and canonical tags, O
 ## Research landing page rollout (2026-10-15)
 
 All 14 entries in `_data/corpora.yml` now have introductory landing pages linked from `/corpora/`. Repository existence was checked using the GitHub connector. These pages are discovery summaries, not certified corpus coverage reports. Public GitHub Pages deployment and generated sitemap have not yet been independently verified. Next: validate live build, confirm sitemap XML, configure Search Console, expand source-backed scholarship, and verify AI-skill links against each repository. No corpus records or AI skills were modified in this rollout.
+
+## Automated portal validation
+
+GitHub Actions workflow `validate-portal.yml` checks the 14 landing-page slugs, required research cautions, Jekyll build, generated sitemap URLs, and canonical tags. Review the workflow result under **Actions → Validate research portal**; a committed workflow is not evidence of a successful run. The workflow does not validate underlying inscription records or independent scholarly accuracy.
+
+## Live deployment and Google Search Console checklist
+
+1. In **Settings → Pages**, confirm the deployment source and successful publication at `https://hawkinsnick.github.io/Corpus-updates/`.
+2. Open `https://hawkinsnick.github.io/Corpus-updates/sitemap.xml` and `https://hawkinsnick.github.io/Corpus-updates/linear-a/` and confirm the expected content is served.
+3. In Google Search Console, add the **URL-prefix** property `https://hawkinsnick.github.io/Corpus-updates/` and complete the required ownership verification. GitHub Pages does not require a purchased domain.
+4. Submit `https://hawkinsnick.github.io/Corpus-updates/sitemap.xml` in Search Console, inspect selected page URLs, and monitor indexing reports. Sitemap submission and indexing are not guarantees of ranking.
+5. Audit landing pages for scholarly substance and verify any AI-skill links before promoting them to researchers.
+
+Live Pages deployment and Google Search Console ownership require independent confirmation; they are not claimed complete by this repository update.
