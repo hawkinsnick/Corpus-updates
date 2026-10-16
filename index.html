@@ -1,5 +1,11 @@
 ---
 layout: default
-title: Project updates
+title: Ancient Scripts Corpus Research Portal
+description: Explore open research corpora for ancient writing systems, documentation, scholarly evidence, and project updates.
 ---
-<p class="eyebrow">Research in progress</p><h1>Building a better reference for ancient scripts.</h1><p class="intro">Updates on corpus coverage, research tools, source access, and the questions that still need independent scholarly review.</p><section aria-label="Recent updates">{% for post in site.posts %}<article class="card"><p class="eyebrow">{{ post.date | date: "%B %-d, %Y" }} · {{ post.categories | join: " / " | escape }}</p><h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2><p>{{ post.summary | escape }}</p><a href="{{ post.url | relative_url }}">Read update →</a></article>{% endfor %}</section>
+<h1>Ancient Scripts Corpus Research Portal</h1>
+<p class="intro">Explore research corpora, scholarly documentation, source and rights information, and AI-assisted research resources for ancient writing systems. Coverage and validation vary by corpus; consult each repository for current evidence and limitations.</p>
+<nav aria-label="Research navigation"><p><a href="{{ '/corpora/' | relative_url }}">Explore the corpora →</a> · <a href="{{ '/contribute/' | relative_url }}">Contribute feedback →</a> · <a href="{{ '/updates/' | relative_url }}">Project updates →</a></p></nav>
+<h2>Research corpora</h2><p>Start with the <a href="{{ '/corpora/' | relative_url }}">corpus directory</a> for links to the authoritative repositories. Data and individual AI skills remain in their existing repositories.</p>
+<h2>Latest project updates</h2>
+<section aria-label="Recent updates">{% for post in site.posts limit:5 %}<article class="card"><p class="eyebrow">{{ post.date | date: "%B %-d, %Y" }}</p><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{{ post.summary | escape }}</p></article>{% endfor %}</section>
