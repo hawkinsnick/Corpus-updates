@@ -39,3 +39,7 @@ GitHub Actions workflow `validate-portal.yml` checks the 14 landing-page slugs, 
 5. Audit landing pages for scholarly substance and verify any AI-skill links before promoting them to researchers.
 
 Live Pages deployment and Google Search Console ownership require independent confirmation; they are not claimed complete by this repository update.
+
+## Validation correction
+
+On 2026-10-15, the workflow was relocated from the incorrect `_github/workflows/` directory to GitHub Actions' required `.github/workflows/` directory; the misplaced file was deleted. This fixes workflow discovery but does not establish a successful run. Confirm a green check under Actions and inspect any Jekyll build errors before marking the validation gate passed.
