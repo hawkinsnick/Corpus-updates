@@ -15,3 +15,9 @@ Create `_posts/YYYY-MM-DD-short-title.md` with YAML front matter: layout: post, 
 Include what changed, validation, source and rights status, unresolved scholarly questions, and next steps. Link to exact commits or merged PRs for completed work. Describe branch-only work as pending.
 
 This repository publishes editorial updates, not corpus data or AI skill bundles. Authoritative corpus documentation and individual/master AI skills remain in their respective repositories.
+
+## Research discovery portal
+
+The GitHub Pages site now offers a research homepage, [corpus directory](https://hawkinsnick.github.io/Corpus-updates/corpora/), [Linear A guide](https://hawkinsnick.github.io/Corpus-updates/linear-a/), updates, and contribution instructions. The source of truth for inscriptions and individual/master AI skills remains in the existing repositories; the portal does not duplicate or alter corpus records.
+
+SEO implementation: shared page-specific title/description and canonical tags, Open Graph metadata, a Jekyll-generated `sitemap.xml`, and `robots.txt`. Verify the live Pages deployment before submitting the sitemap to Google Search Console. Google indexing is not guaranteed. Before adding new corpus pages, verify repository names, evidence scope, scholarly limitations, rights, and AI-skill links. Changes to underlying corpus data require corresponding corpus documentation, individual AI-skill, and master AI-skill updates and validation.
