@@ -9,6 +9,7 @@
 <meta name="description" content="{{ description | strip_html | normalize_whitespace | escape }}">
 <link rel="canonical" href="{{ canonical }}">
 <meta property="og:type" content="website"><meta property="og:title" content="{{ page.title | default: site.title | escape }}"><meta property="og:description" content="{{ description | strip_html | normalize_whitespace | escape }}"><meta property="og:url" content="{{ canonical }}">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"description":{{ site.description | jsonify }}}</script>
 <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body><div class="wrap"><header><a class="brand" href="{{ '/' | relative_url }}">ANCIENT SCRIPTS</a><p>Open research corpora and project updates</p><nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/corpora/' | relative_url }}">Explore corpora</a><a href="{{ '/updates/' | relative_url }}">Updates</a><a href="{{ '/contribute/' | relative_url }}">Contribute</a><a href="{{ '/about/' | relative_url }}">About</a><a href="https://github.com/hawkinsnick/Corpus-updates">GitHub</a></nav></header><main id="main-content">{{ content }}</main><footer>Evidence, attribution, and uncertainty are part of every update. Authoritative research data remains in its corpus repository.</footer></div></body></html>
