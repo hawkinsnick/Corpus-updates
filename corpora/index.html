@@ -5,5 +5,6 @@ title: Ancient Writing Systems and Corpora
 <h1>Explore the ancient-script corpora</h1>
 <p>These links lead to the authoritative GitHub repositories. An entry in this directory does not imply complete inscription coverage, secured image reuse rights, or independent expert validation.</p>
 {% assign corpora = site.data.corpora %}
+<p><a href="{{ '/linear-a/' | relative_url }}">Linear A research guide →</a></p>
 <ul>{% for corpus in corpora %}<li><strong>{{ corpus.name | escape }}</strong> — <a href="{{ corpus.url }}">Repository and documentation</a></li>{% endfor %}</ul>
 <p>See each repository's README, evidence records, licensing and AI-skill documentation for current scope and limitations.</p>
